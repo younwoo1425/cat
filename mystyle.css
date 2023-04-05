@@ -53,12 +53,6 @@ a {
     text-decoration: none;
 }
 
-/*.left-div {
-    font-size: 30px;
-    font-family: 'Black Han Sans', sans-serif;
-    font-weight: 100;
-}*/
-
 .btn {
     /* 버튼 기본 스타일 */
     background-color: #4CAF50;
@@ -90,5 +84,41 @@ i {
     padding-right: 10px;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 70, 0);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgb(0, 70, 0);
+    border-right: 1px solid rgb(0, 70, 0);
+  }
 
+  tr:nth-child(even) {
+    background-color: #9fff9a;
+  }
+  
 
+  thead {
+    background-color: #1d1d1d;
+    color: white;
+  }
+
+  th:last-child, td:last-child {
+    border-right: none;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+
+  img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+  }
